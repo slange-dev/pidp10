@@ -115,7 +115,7 @@ case $yn in
     [Yy]* ) 
         echo -----------------------
         echo Download
-        wget -O /opt/pidp10/manual.docx https://pidp.net/pidp10-sw/manual.docx
+        wget -O /opt/pidp10/manual.docx https://obsolescence.dev/pidp10-sw/manual.docx
         echo -----------------------
         ;;
     [Nn]* ) ;;
@@ -132,7 +132,7 @@ case $yn in
     [Yy]* ) 
         echo -----------------------
         echo Downloading PDP-10 ITS disk images
-        wget -O /opt/pidp10/systems/its/its-system.zip https://pidp.net/pidp10-sw/its-system.zip
+        wget -O /opt/pidp10/systems/its/its-system.zip https://obsolescence.dev/pidp10-sw/its-system.zip
 	unzip -d /opt/pidp10/systems/its /opt/pidp10/systems/its/its-system.zip
         echo -----------------------
         ;;
@@ -152,7 +152,7 @@ case $yn in
     [Yy]* ) 
         echo -----------------------
         echo Downloading TOPS-10 disk images
-        wget -O /opt/pidp10/systems/tops10-603/tops603ka.zip https://pidp.net/pidp10-sw/tops603ka.zip
+        wget -O /opt/pidp10/systems/tops10-603/tops603ka.zip https://obsolescence.dev/pidp10-sw/tops603ka.zip
         unzip -d /opt/pidp10/systems/tops10-603 /opt/pidp10/systems/tops10-603/tops603ka.zip
         echo -----------------------
         ;;
@@ -170,7 +170,7 @@ case $yn in
     [Yy]* ) 
         echo -----------------------
         echo Downloading TOPS-20 disk images
-        wget -O /opt/pidp10/systems/tops20/tops20-panda.zip https://pidp.net/pidp10-sw/tops20-panda.zip
+        wget -O /opt/pidp10/systems/tops20/tops20-panda.zip https://obsolescence.dev/pidp10-sw/tops20-panda.zip
 	unzip -d /opt/pidp10/systems/tops20 /opt/pidp10/systems/tops20/tops20-panda.zip
         echo -----------------------
         ;;
